@@ -1,10 +1,31 @@
 :root {
   --black-color: 333333;
   --grey-color: #7B7D7B;
+  --font-big: 24px;
+  --font-med: 15px;
+  --font-small: 14px;
 }
 
-section {
+#top-section {
   margin-top: 15vh;
+}
+
+.header-divider {
+  border-top: 1px black solid;
+  margin-top: 10px;
+  padding-bottom: 20px
+}
+
+.heading-big {
+  font-size: var(--font-big);
+}
+
+.heading-med {
+  font-size: var(--font-med);
+}
+
+.work-exp__content .row {
+  padding: 15px 0;
 }
 
 #footer {
