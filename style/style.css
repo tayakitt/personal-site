@@ -1,3 +1,9 @@
+@import url("https://rsms.me/inter/inter-ui.css");
+@font-face {
+  font-family: "Canela";
+  src: url("/fonts/Canela-Light.woff") format("woff")
+  }
+
 :root {
   --black-color: #333333;
   --grey-color: #7B7D7B;
@@ -10,6 +16,7 @@
 }
 
 main {
+  font-family: "Inter UI", sans-serif;
   padding-bottom: 90px;
   font-size: var(--font-small);
   color: var(--black-color);
