@@ -92,8 +92,11 @@ main {
   text-align: center;
 }
 
+
 footer {
   background-color: white;
+  font-family: "Inter UI", sans-serif;
+  font-size: var(--font-small);
 }
 
 .footer__content {
@@ -118,11 +121,11 @@ footer {
   text-align: center;
   padding-left: 20px;
   text-decoration: none;
-  color: var(--blue-color);
+  color: var(--black-color);
 }
 
 .footer__content li a:hover {
-  color: var(--black-color);
+  color: var(--grey-color);
 }
 
 .footer__links {
