@@ -31,22 +31,25 @@ main {
 
 .heading-med {
   font-size: var(--font-med);
-  font-weight: 500;
 }
 
-.work-exp__content .row {
+.work-exp__content .row, .projects__content .row {
   padding: 15px 0;
 }
 
-#footer {
+section:not(#top-section) {
+  padding: 6vh 0;
+}
+ 
+footer {
   background-color: white;
-  border-top: 1px black solid;
-  padding: 20px 0;
 }
 
 .footer__content {
+  border-top: 1px black solid;
   display: flex;
   align-items: center;
+  padding: 20px 0;
 }
 
 .footer__content ul {
