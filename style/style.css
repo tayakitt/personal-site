@@ -1,82 +1,66 @@
 @import url("https://rsms.me/inter/inter-ui.css");
 @font-face {
-  font-family: "Canela";
-  src: url("/fonts/Canela-Light.woff") format("woff")
-  }
+  font-family: "Canela-Light";
+  src: 
+  url("/fonts/Canela-Light.woff") format("woff")
+}
 
 :root {
-  --black-color: #333333;
+  --black-color: #000000;
   --grey-color: #7B7D7B;
   --light-grey-color: #E6E6E6;
-  --blue-color: #0150C7;
-  --font-header: 30px;
-  --font-big: 24px;
-  --font-med: 18px;
+  --font-big: 46px;
+  --font-med: 34px;
   --font-small: 14px;
 }
 
 main {
   font-family: "Inter UI", sans-serif;
+  font-weight: 300;
   padding-bottom: 90px;
   font-size: var(--font-small);
   color: var(--black-color);
 }
 
+.branding {
+  font-size: 18px;
+  font-family: "Canela-Light", sans-serif;
+}
+
 #top-section {
-  margin-top: 18vh;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Canela-Light", sans-serif;
+  color: var(--black-color);
+  margin-top: -50px;
 }
 
 .header-divider {
   border-top: 1px solid;
   border-color: var(--grey-color);
   margin-top: 10px;
-  padding-bottom: 20px
-}
-
-.heading-title {
-  font-size: var(--font-header);
-  font-weight: 500;
 }
 
 .heading-big {
-  font-size: var(--font-big);
-  font-weight: 500;
+  font-size: 3vw;
 }
 
 .heading-med {
   font-size: var(--font-med);
-  font-weight: 500;
+  font-family: "Canela-Light", sans-serif;
 }
 
-.heading__intro {
-  padding-top: 20px;
-  font-size: var(--font-med);
+.heading-small {
+  font-size: var(--font-small);
 }
 
-.heading__description {
-  padding-top: 20px;
-  padding-bottom: 18vh;
-  font-size: var(--font-med);
+.projects__content .row, .work-exp__content .row {
+  padding-top: 24px;
 }
 
-.work-exp__content .row, .projects__content .row {
-  padding: 15px 0;
-}
-
-section a {
-  color: var(--blue-color);
-  text-decoration: none;
-}
-
-section a:hover {
-  color: var(--black-color);
-  text-decoration: none;
-}
-
-section:not(#top-section) {
-  padding: 6vh 0;
-}
- 
 .trademark {
   font-size: 10px;
   color: var(--grey-color);
@@ -92,7 +76,8 @@ footer {
   border-color: var(--grey-color);
   display: flex;
   align-items: center;
-  padding: 20px 0;
+  padding-bottom: 20px;
+  line-height: 40px;
 }
 
 .footer__content ul {
@@ -130,8 +115,7 @@ footer {
 }
 
 .emoji--large{
-  width: 30px;
-  margin-top: -15px;
+  width: 3vw;
 }
 
 .footer__contact:hover .emoji, #wave:hover {
