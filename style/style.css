@@ -7,11 +7,12 @@
 
 :root {
   --black-color: #000000;
-  --grey-color: #7B7D7B;
+  --grey-color: #8F8F8F;
   --light-grey-color: #E6E6E6;
   --font-big: 46px;
   --font-med: 34px;
   --font-small: 14px;
+  --font-tiny: 10px;
 }
 
 main {
@@ -51,14 +52,38 @@ main {
 .heading-med {
   font-size: var(--font-med);
   font-family: "Canela-Light", sans-serif;
+  font-weight: 100;
 }
 
 .heading-small {
   font-size: var(--font-small);
 }
 
+.heading-tiny {
+  font-size: var(--font-tiny);
+
+}
 .projects__content .row, .work-exp__content .row {
   padding-top: 24px;
+}
+
+.projects__content a {
+  color: var(--black-color);
+  text-decoration: none;
+}
+
+.projects__content .arrow {
+  margin-top: -5px;
+  transition: all .3s cubic-bezier(.05,.03,.35,1);
+}
+
+.projects__content a:hover {
+  color: var(--black-color);
+  text-decoration: underline;
+}
+
+.projects__content a:hover img{
+  transform: rotate(-45deg);
 }
 
 .trademark {
