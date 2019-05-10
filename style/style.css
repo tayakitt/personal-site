@@ -2,8 +2,16 @@
   --black-color: 333333;
   --grey-color: #7B7D7B;
   --font-big: 24px;
-  --font-med: 15px;
+  --font-med: 16px;
   --font-small: 14px;
+}
+
+/* body {
+  font-size: var(--font-small);
+} */
+
+main {
+  padding-bottom: 100px;
 }
 
 #top-section {
@@ -18,10 +26,12 @@
 
 .heading-big {
   font-size: var(--font-big);
+  font-weight: 500;
 }
 
 .heading-med {
   font-size: var(--font-med);
+  font-weight: 500;
 }
 
 .work-exp__content .row {
@@ -29,6 +39,7 @@
 }
 
 #footer {
+  background-color: white;
   border-top: 1px black solid;
   padding: 20px 0;
 }
