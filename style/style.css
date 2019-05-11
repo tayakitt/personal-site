@@ -86,12 +86,6 @@ main {
   transform: rotate(-45deg);
 }
 
-.trademark {
-  font-size: 10px;
-  color: var(--grey-color);
-  text-align: center;
-}
-
 @media only screen and (max-width: 992px) {
   #work-exp {
     padding-top: 70px;
