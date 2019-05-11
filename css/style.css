@@ -25,11 +25,6 @@ main {
   color: var(--black-color);
 }
 
-.branding {
-  font-size: 18px;
-  font-family: "Canela-Light", Helvetica, sans-serif;
-}
-
 #top-section {
   height: 100vh;
   background-size: cover;
@@ -48,8 +43,8 @@ main {
 }
 
 .heading-med {
-  font-size: var(--font-med);
   font-family: "Canela-Light", Helvetica, sans-serif;
+  font-size: var(--font-med);
   font-weight: 100;
 }
 
@@ -61,6 +56,7 @@ main {
   font-size: var(--font-tiny);
 
 }
+
 .projects__content .row, .work-exp__content .row {
   padding-top: 24px;
 }
@@ -86,6 +82,11 @@ main {
 
 #work-exp {
   padding-top: 70px;
+}
+
+.branding {
+  font-size: 18px;
+  font-family: "Canela-Light", Helvetica, sans-serif;
 }
 
 footer {
