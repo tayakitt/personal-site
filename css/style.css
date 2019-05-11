@@ -47,10 +47,6 @@ main {
   margin-top: 10px;
 }
 
-.heading-big {
-  font-size: var(--font-big);
-}
-
 .heading-med {
   font-size: var(--font-med);
   font-family: "Canela-Light", Helvetica, sans-serif;
@@ -86,6 +82,10 @@ main {
 
 .projects__content a:hover img{
   transform: rotate(-45deg);
+}
+
+#work-exp {
+  padding-top: 70px;
 }
 
 footer {
@@ -137,29 +137,44 @@ footer {
   width: 24px;
 }
 
-.emoji--large{
-  width: 3vw;
-}
-
 .footer__contact:hover .emoji, #wave:hover {
   transform: rotate(20deg);
 }
 
-/* up to small */
-@media only screen and (min-width: 768px) {
-  #work-exp {
-    padding-top: 70px;
+/* below small */
+@media only screen and (max-width: 451px) {
+  .heading-big {
+    font-size: 25px;
   }
 
-  .heading-big {
-    color: red;
+  .emoji--large {
+    width: 25px;
   }
 }
 
-/* up to medium */
+/* above small */
+@media only screen and (min-width: 452px) {
+  .heading-big {
+    font-size: var(--font-med);
+  }
+
+  .emoji--large {
+    width: var(--font-med);
+  }
+}
+
+/* above medium */
 @media only screen and (min-width: 991px) {
   #work-exp {
-    padding-top: 70px;
+    padding-top: 0px;
+  }
+
+  .heading-big {
+    font-size: var(--font-big);
+  }
+
+  .emoji--large {
+    width: var(--font-big);
   }
 }
 
