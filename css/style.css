@@ -1,10 +1,10 @@
 @import url("https://rsms.me/inter/inter-ui.css");
 @font-face {
   font-family: "Canela-Light";
-  src: url("/fonts/Canela-Light-Web.eot");
+  src: url("./fonts/Canela-Light-Web.eot");
   src: 
-    url("/fonts/Canela-Light-Web.woff") format("woff"),
-    url("/fonts/Canela-Light-Web.woff2") format("woff2");
+    url("./fonts/Canela-Light-Web.woff") format("woff"),
+    url("./fonts/Canela-Light-Web.woff2") format("woff2");
 }
 
 :root {
@@ -48,7 +48,7 @@ main {
 }
 
 .heading-big {
-  font-size: 3vw;
+  font-size: var(--font-big);
 }
 
 .heading-med {
@@ -86,12 +86,6 @@ main {
 
 .projects__content a:hover img{
   transform: rotate(-45deg);
-}
-
-@media only screen and (max-width: 992px) {
-  #work-exp {
-    padding-top: 70px;
-  }
 }
 
 footer {
@@ -150,3 +144,22 @@ footer {
 .footer__contact:hover .emoji, #wave:hover {
   transform: rotate(20deg);
 }
+
+/* up to small */
+@media only screen and (min-width: 768px) {
+  #work-exp {
+    padding-top: 70px;
+  }
+
+  .heading-big {
+    color: red;
+  }
+}
+
+/* up to medium */
+@media only screen and (min-width: 991px) {
+  #work-exp {
+    padding-top: 70px;
+  }
+}
+
