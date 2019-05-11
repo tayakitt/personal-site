@@ -4,139 +4,135 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="style/style.css">
   <link rel="icon" href="images/favicon.ico" type="image/png" />
   <title>Taya</title>
 </head>
 
 <body>
-  <main>
-    <section id="top-section">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-10 col-lg-6 offset-sm-1">
-            <span class="heading-title">Hello</span>
-            <img class="emoji emoji--large" id="wave" src="assets/waving-hand.png">
-            <div class="heading__intro">
-              Taya is a <b>full stack developer</b> with an Engineering background
-            </div>
-            <div class="heading__description">
-              She is currently an engineering student at the University of Waterloo. She is looking for opportunities to
-              expand her interests in problem solving, design, and coding!
-              <img class="emoji emoji--small" src="assets/sparkles.png">
-            </div>
-          </div>
+  <section class="heading-big" id="top-section">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-22 col-sm-offset-1">
+          <img class="emoji emoji--large" id="wave" src="assets/waving-hand.png">
+          <br />
+          Taya is a full stack developer with an Engineering background. She is
+          currently studying at the University of Waterloo. She is looking for opportunities to
+          expand her interests in problem solving, design, <br/> and coding!
+          <img class="emoji emoji--large" src="assets/sparkles.png">
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
+  <main>
     <section>
       <div class="container-fluid">
         <div class="row">
-          <div class="col-sm-10 offset-sm-1">
+          <!-- side projects -->
+          <div class="col-md-13 col-sm-22 col-sm-offset-1" id="projects">
             <div class="heading-small">
-              <span>PROJECTS</span>
+              <span>SIDE PROJECTS</span>
               <img class="emoji emoji--small" src="assets/teacup.png">
             </div>
             <div class="header-divider"></div>
-          </div>
-        </div>
-        <div class="projects__content">
-          <div class="row">
-            <div class="col-sm-2 offset-sm-1 heading-med">
-              <a href="https://dropoff-mscci444.firebaseapp.com/#!/login" target="_blank">DropOff</a>
-            </div>
-            <div class="col-sm-7 offset-sm-1">
-              AngularJS | Firebase<br />
-              An intercity carpool web application for university students that aims to make ride sharing more efficient
-              and systematic as drivers and riders can pair up easily
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-2 offset-sm-1 heading-med">
-              <a href="http://tayakitt.000webhostapp.com/" target="_blank">Coffee Beans</a>
-            </div>
-            <div class="col-sm-7 offset-sm-1">
-              HTML | CSS | Bootstrap <br />
-              A responsive one-page website to promote a coffee shop
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-2 offset-sm-1 heading-med">
-              <a href="https://github.com/celine-y/poll-master" target="_blank">Poll Master</a>
-            </div>
-            <div class="col-sm-7 offset-sm-1">
-              JavaScript | PHP | MySQL<br />
-              An online survey application for coordinating personal events
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+            <div class="projects__content">
+              <div class="row">
+                <div class="col-md-10 heading-med">
+                  <a href="https://dropoff-mscci444.firebaseapp.com/#!/login" target="_blank">DropOff
+                    <img class="arrow" src="assets/arrow.svg"></img>
+                  </a>
+                </div>
+                <div class="col-md-14">
+                  AngularJS | Firebase<br />
+                  An intercity carpool web application for university students that aims to make ride sharing more
+                  efficient and systematic
+                </div>
+              </div>
 
-    <section>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-10 offset-sm-1">
+              <div class="row">
+                <div class="col-md-10 heading-med">
+                    <a href="http://tayakitt.000webhostapp.com/" target="_blank">Coffee Beans
+                      <img class="arrow" src="assets/arrow.svg"></img>
+                    </a>
+                </div>
+                <div class="col-md-14">
+                    HTML | CSS | Bootstrap <br />
+                    A responsive one-page website to promote a coffee shop
+                </div>
+              </div>
+
+              <div class="row">
+                  <div class="col-md-10 heading-med">
+                      <a href="https://github.com/celine-y/poll-master" target="_blank">Poll Master
+                        <img class="arrow" src="assets/arrow.svg"></img>
+                      </a>
+                  </div>
+                  <div class="col-md-14">
+                      JavaScript | PHP | MySQL<br />
+                      An online survey application for coordinating personal events
+                  </div>
+                </div>
+            </div>
+          </div>
+
+          <!-- work experience -->
+          <div class="col-md-9 col-md-offset-0 col-sm-22 col-sm-offset-1" id="work-exp">
             <div class="heading-small">
               <span>WORK EXPERIENCE</span>
               <img class="emoji emoji--small" src="assets/female-technologist.png">
             </div>
             <div class="header-divider"></div>
+            <div class="work-exp__content">
+              <div class="row">
+                <div class="col-md-24">
+                  <div class="heading-tiny">ADA SUPPORT | JAN - APR 2019</div>
+                  <div class="heading-med">Front End Developer</div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-24">
+                  <div class="heading-tiny">ADA SUPPORT | MAY - AUG 2018</div>
+                  <div class="heading-med">Back End Developer</div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-24">
+                  <div class="heading-tiny">BANK OF MONTREAL | SEPT - DEC 2017</div>
+                  <div class="heading-med">Junior Data Scientist</div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-24">
+                  <div class="heading-tiny">KENNA | JAN - APR 2017</div>
+                  <div class="heading-med">Full Stack Developer</div>
+                </div>
+              </div>
+
+              <div class="row">
+                  <div class="col-md-24">
+                    <div class="heading-tiny">SENECA COLLEGE | MAY - AUG 2016</div>
+                    <div class="heading-med">E-learning UI Designer</div>
+                  </div>
+                </div>
+            </div>
           </div>
-        </div>
-        <div class="work-exp__content">
-          <div class="row">
-            <div class="col-sm-2 offset-sm-1 heading-med">
-              <a href="https://www.ada.support/" target="_blank">Ada</a>
-            </div>
-            <div class="col-sm-7 offset-sm-1">
-              Full stack developer | 8 months <br />
-              Enriched AI chatbot experience to increaase conversation containment and chatter satisfaction
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-2 offset-sm-1 heading-med">
-              <a href="https://www.bmo.com/main/personal" target="_blank">Bank of Montreal</a>
-            </div>
-            <div class="col-sm-7 offset-sm-1">
-              Junior Data Scientist | 4 months <br />
-              Reduced process inefficiencies in IT Operations through text mining and natural language processing
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-2 offset-sm-1 heading-med">
-              <a href="http://kenna.ca" target="_blank">Kenna</a>
-            </div>
-            <div class="col-sm-7 offset-sm-1">
-              Full stack developer | 4 months <br />
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-2 offset-sm-1 heading-med">
-              <a href="https://www.senecacollege.ca/home.html" target="_blank">Seneca College</a>
-            </div>
-            <div class="col-sm-7 offset-sm-1">
-              E-learning UI Designer | 4 months <br />
-              Made online learning content more accessible to all type of students
-            </div>
-          </div>
+
         </div>
       </div>
     </section>
-    <div class="container-fluid">
-      <div class="col-sm-10 offset-sm-1 trademark">TAYA KITT © 2019</div>
-    </div>
   </main>
-  
-  <footer class="fixed-bottom">
+
+  <footer class="navbar-fixed-bottom">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-sm-10 offset-sm-1">
+        <div class="col-sm-22 col-sm-offset-1">
           <div class="footer__content">
-            <div class="heading-med"><b>TAYA KITT</b></div>
+            <div class="branding">Taya Kitt</div>
             <div class="footer__links">
               <ul>
                 <li>
@@ -169,9 +165,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
     integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
     crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+  <script src="/js/bootstrap.min.js"></script>
 </body>
 
 </html>
