@@ -18,7 +18,7 @@
 main {
   font-family: "Inter UI", sans-serif;
   font-weight: 300;
-  padding-bottom: 90px;
+  padding-bottom: 120px;
   font-size: var(--font-small);
   color: var(--black-color);
 }
@@ -92,6 +92,11 @@ main {
   text-align: center;
 }
 
+@media only screen and (max-width: 992px) {
+  #work-exp {
+    padding-top: 70px;
+  }
+}
 
 footer {
   background-color: white;
