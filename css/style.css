@@ -23,7 +23,6 @@ main {
   font-weight: 300;
   padding-bottom: 120px;
   font-size: var(--font-small);
-  color: var(--black-color);
 }
 
 #top-section {
@@ -33,12 +32,15 @@ main {
   flex-direction: column;
   justify-content: center;
   font-family: "Canela-Light", Helvetica, sans-serif;
-  color: var(--black-color);
   margin-top: -50px;
 }
 
-body.dark, body.dark footer, h1, h2, h3, h4, h5, h6, a {
+body.dark, body.dark footer {
   background: var(--dark-grey-color) !important;
+  color: white !important;
+}
+
+body.dark a {
   color: white !important;
 }
 
