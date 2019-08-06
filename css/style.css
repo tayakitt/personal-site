@@ -11,6 +11,7 @@
   --black-color: #000000;
   --grey-color: #8F8F8F;
   --light-grey-color: #E6E6E6;
+  --dark-grey-color: #2d3035;
   --font-big: 46px;
   --font-med: 34px;
   --font-small: 14px;
@@ -36,10 +37,9 @@ main {
   margin-top: -50px;
 }
 
-body.dark, body.dark footer {
-  background: var(--black-color) !important;
-  color: var(--light-grey-color) !important;
-  transition: all 0.5s;
+body.dark, body.dark footer, h1, h2, h3, h4, h5, h6, a {
+  background: var(--dark-grey-color) !important;
+  color: white !important;
 }
 
 .dark-mode-toggle {
