@@ -36,6 +36,18 @@ main {
   margin-top: -50px;
 }
 
+body.dark, body.dark footer {
+  background: var(--black-color) !important;
+  color: var(--light-grey-color) !important;
+  transition: all 0.5s;
+}
+
+.dark-mode-toggle {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 .header-divider {
   border-top: 1px solid;
   border-color: var(--grey-color);

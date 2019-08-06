@@ -13,6 +13,10 @@
 <body>
   <section class="heading-big" id="top-section">
     <div class="container-fluid">
+      <div class="dark-mode-toggle">
+        <a href="#" onclick="localStorage.setItem('mode', (localStorage.getItem('mode') || 'dark') === 'dark' ? 'light' : 'dark'); localStorage.getItem('mode') === 'dark' ? document.querySelector('body').classList.add('dark') : document.querySelector('body').classList.remove('dark')">test</a>
+        <img class="emoji emoji--small" id="moon" src="assets/moon.png">
+      </div>
       <div class="row">
         <div class="col-sm-22 col-sm-offset-1">
           <img class="emoji emoji--large" id="wave" src="assets/waving-hand.png">
@@ -165,6 +169,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
     integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
     crossorigin="anonymous"></script>
+  <script src="js/dark-mode.js"></script>
   <script src="js/bootstrap.min.js"></script>
 </body>
 
